@@ -1,0 +1,12 @@
+[alias]
+        commend = commit -s --amend --no-edit
+        please = push --force-with-lease
+        tree = log --oneline --decorate --all --graph
+        branch-name = "!git rev-parse --abbrev-ref HEAD"
+        create = "!git push --set-upstream origin $(git branch-name)"
+[fetch]
+        prune = true
+[core]
+        excludesfile = ~/.gitignore_global
+[pull]
+        rebase = true
