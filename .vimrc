@@ -1,2 +1,13 @@
+set nocompatible
 syntax enable
 set encoding=utf-8
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number
+set smarttab
+set hlsearch
+set cursorline
+set wildmenu
+set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<,space:·
+set list
